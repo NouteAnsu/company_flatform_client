@@ -1,0 +1,16 @@
+.login_wrap{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.login_btn{
+    cursor: pointer;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+    background-color: #ff385c;
+    padding: 15px 0;
+    text-align: center;
+    margin-top: 10px;
+}

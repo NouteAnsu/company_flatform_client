@@ -1,0 +1,31 @@
+.regist_wrap{
+    height: 100%;
+}
+
+.back_icon{
+    margin: 20px;
+    cursor: pointer;
+}
+.regist_btn{
+    cursor: pointer;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+    background-color: #ff385c;
+    padding: 15px 0;
+    text-align: center;
+    margin-top: 22px;
+}
+.ant-modal-confirm-btns{
+    width: 100%;
+    text-align: center;
+}
+.ant-modal-confirm-body-wrapper{
+    width: 100%;
+}
+.ant-modal-body{
+    height: 220px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
