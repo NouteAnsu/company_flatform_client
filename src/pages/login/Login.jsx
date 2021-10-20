@@ -1,4 +1,4 @@
-import { Col,Row,Input,Form } from 'antd';
+import { Col,Row,Input,Form,Image} from 'antd';
 import React, {useState} from 'react'
 import { useHistory } from 'react-router';
 import './Login.css';
@@ -27,6 +27,9 @@ const Login = () => {
     return (
         <div className="login_wrap">
             <Col span={20}>
+                <Col style={{marginBottom:"15px"}}>
+                    <Image src="images/logo.png" preview={false}></Image>
+                </Col>
                 <Col style={{marginBottom:"5px"}}>
                     <Form onKeyPress={onCheckEnter}>
                         <Input name="username" value={values.username} size="large" placeholder="이메일을 입력해주세요" onChange={handleChange} style={{marginBottom:"5px"}}/>

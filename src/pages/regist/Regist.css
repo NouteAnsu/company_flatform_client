@@ -6,6 +6,9 @@
     margin: 20px;
     cursor: pointer;
 }
+.regist_form{
+    margin-top: 30px;
+}
 .regist_btn{
     cursor: pointer;
     color: #fff;
