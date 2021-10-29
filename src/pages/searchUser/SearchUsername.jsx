@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import { useHistory } from 'react-router';
 import { Row, Col} from 'antd';
 import { ArrowLeftOutlined } from '@ant-design/icons'
-import './SearchUser.css'
+import './SearchUsername.css'
 
 const SearchUsername = () => {
     const history = useHistory()
@@ -23,6 +23,9 @@ const SearchUsername = () => {
                         <span className="search_pwd" onClick={{move_pwd}}>비밀번호 찾기</span>
                     </Col>
                 </Row>
+                <Col>
+                    
+                </Col>
             </Col>
         </div>
     )
